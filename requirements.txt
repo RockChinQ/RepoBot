@@ -1,0 +1,3 @@
+PyYAML~=6.0
+graia-ariadne~=0.10.3
+graia-saya~=0.0.17

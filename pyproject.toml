@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "repobot"
+version = "0.1.0"
+description = ""
+authors = ["Rock Chin <1010553892@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+graia-ariadne = "^0.10.3"
+graia-saya = "^0.0.17"
+graia-scheduler = "^0.1.4"
+pyyaml = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple"
+default = true
